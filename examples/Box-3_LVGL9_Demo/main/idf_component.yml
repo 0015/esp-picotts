@@ -2,8 +2,8 @@
 dependencies:
   espressif/esp-box-3: "^1.2.0~2"
   jmattsson/esp-picotts:
-  version: "==1.*"
-  override_path: "../../../"
+    version: "==1.*"
+    override_path: "../../../"
   ## Required IDF version
   idf:
     version: ">=5.1.0"
