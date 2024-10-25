@@ -1,0 +1,17 @@
+dependencies:
+  idf:
+    source:
+      type: idf
+    version: 5.3.1
+  jmattsson/esp-picotts:
+    dependencies: []
+    source:
+      path: /home/cjdell/Projects/esp-picotts
+      type: local
+    version: 1.1.2
+direct_dependencies:
+- idf
+- jmattsson/esp-picotts
+manifest_hash: 76c7027da95227f126831af27c0fc6496203d05988c72e38759746624c06fd1b
+target: esp32s3
+version: 2.0.0
